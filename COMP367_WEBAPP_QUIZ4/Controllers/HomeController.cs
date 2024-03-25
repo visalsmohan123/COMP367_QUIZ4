@@ -15,6 +15,7 @@ namespace COMP367_WEBAPP_QUIZ4.Controllers
 
         public IActionResult Index()
         {
+            Console.WriteLine("Database access has already been done on April 14, 2023 by Visal Mohan");
             return View();
         }
 
